@@ -37,6 +37,8 @@ body {
     width: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
 
 }
 
@@ -63,10 +65,13 @@ body {
 }
 
 .button-card {
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: space-around;
+    align-items: center;
+    
+
 }
 
 button {
