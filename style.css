@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -10,12 +10,8 @@ body {
 
     background-image: url("starter_files/images/light-grey-wood.jpeg");
     background-size: 100% 100%;
-    
     }
    
-   
-
-    }
 
 .header {
     display:flex;
@@ -37,13 +33,40 @@ body {
 }
 
 .flex-container {
+    width: 750px;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
     padding: 08px;
 }
 
+
+.puppy-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.puppy-card img {
+   width: 200px;
+   padding: 20px;
+}
 .puppy-card h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.button-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+    padding:space-around;
+}
+
+button {
+    background-color:saddlebrown;
+    color:antiquewhite;
+}
 
