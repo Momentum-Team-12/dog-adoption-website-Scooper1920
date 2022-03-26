@@ -39,7 +39,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 
-
 }
 
 
@@ -78,7 +77,8 @@ button {
     background-color:saddlebrown;
     color:antiquewhite;
     font-family:fantasy;
-    
+    font-size: 80%;
+
 }
 
 footer {
