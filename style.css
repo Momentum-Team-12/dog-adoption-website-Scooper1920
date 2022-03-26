@@ -11,7 +11,11 @@ body {
     background-image: url("starter_files/images/light-grey-wood.jpeg");
     background-size: 100% 100%;
     
-}
+    }
+   
+   
+
+    }
 
 .header {
     display:flex;
@@ -32,9 +36,14 @@ body {
     color: midnightblue;
 }
 
-.puppy-container {
-    display:flex
+.flex-container {
+    display: flex;
+    flex-wrap: wrap
     padding: 08px;
+}
+
+.puppy-card h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
