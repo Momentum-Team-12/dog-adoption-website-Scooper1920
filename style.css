@@ -82,14 +82,14 @@ button {
 }
 
 footer {
-    line-height: 200px;
+    line-height: 400px;
 
 }
 
 .footer {
     display: flex;
     flex-wrap: wrap;
-    height: 500 px;
+    height: 800 px;
 
   
 
@@ -99,7 +99,7 @@ footer {
     justify-content: center;
     align-content: center;
     flex:1 1 auto;
-    font-size: 200%;
+    font-size: 300%;
     font-family: fantasy;
     color: beige;
 }
