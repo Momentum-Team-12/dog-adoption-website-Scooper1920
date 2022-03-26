@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
     justify-content:center;
     align-items:center;
-    background: url("starter_files/images/fresh-grass-2242789.jpeg") no-repeat center;
+    background: url("starter_files/images/fresh-grass-2242789.jpeg") ;
     background-size:100% 100%;
     font-family:fantasy;
     color:midnightblue;
@@ -61,7 +61,8 @@ body {
 }
 
 .puppy-card h2 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: fantasy;
+    color: midnightblue;
 }
 
 .button-card {
@@ -70,22 +71,27 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
 
 }
 
 button {
     background-color:saddlebrown;
     color:antiquewhite;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:fantasy;
+    
 }
 
+footer {
+    line-height: 200px;
+
+}
 
 .footer {
     display: flex;
     flex-wrap: wrap;
     height: 500 px;
-    background-color: blue;
+
+  
 
 }
 .footer-card {
@@ -93,4 +99,35 @@ button {
     justify-content: center;
     align-content: center;
     flex:1 1 auto;
+    font-size: 200%;
+    font-family: fantasy;
+    color: beige;
 }
+
+#adopt {
+    background: linear-gradient( 
+        rgba(8, 117, 63, 0.699),
+        rgba(8, 158, 8, 0.45)
+    ),
+    url("starter_files/images/donate.jpg");
+  
+}
+#A {
+    background: linear-gradient( 
+        rgba(8, 117, 63, 0.699),
+        rgba(8, 158, 8, 0.45)
+    ),
+    url("starter_files/images/location.png");
+}
+
+#friend {
+    background: linear-gradient( 
+        rgba(8, 117, 63, 0.699),
+        rgba(8, 158, 8, 0.45)
+    ),
+    url("starter_files/images/volunteer.jpg");
+   
+}
+
+
+
