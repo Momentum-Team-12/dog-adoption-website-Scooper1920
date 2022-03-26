@@ -36,7 +36,7 @@ body {
     width: 750px;
     display: flex;
     flex-wrap: wrap;
-    padding: 08px;
+    
 }
 
 
@@ -54,6 +54,7 @@ body {
    width: 200px;
    padding: 20px;
 }
+
 .puppy-card h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -61,8 +62,8 @@ body {
 .button-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly
-    padding:space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
