@@ -13,14 +13,13 @@ body {
 
 .header {
     display:flex;
-    flex-wrap: wrap;
     justify-content:center;
     align-items:center;
     background: url("starter_files/images/fresh-grass-2242789.jpeg") ;
     background-size:100% 100%;
     font-family:fantasy;
     color:midnightblue;
-    font-size: x-large;  
+    font-size: 250%;  
 }
 .sub-header {
     display: flex;
@@ -55,13 +54,14 @@ body {
 }
 
 .puppy-card img {
-  width: 200px;
+  width: 300px;
    padding: 20px;
 }
 
 .puppy-card h2 {
     font-family: fantasy;
     color: midnightblue;
+    font-size: 250%;
 }
 
 .button-card {
@@ -76,7 +76,7 @@ body {
 button {
     background-color:saddlebrown;
     color:antiquewhite;
-    font-family:fantasy;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 80%;
 
 }
